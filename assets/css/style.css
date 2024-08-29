@@ -1,0 +1,124 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(201, 197, 197);
+}
+
+.item-text {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.item1 {
+  background-color: rgba(63, 90, 90, 0.642);
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  color: white;
+  font-size: 17px;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.item2 a {
+  color: rgba(72, 72, 72, 0.831);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border-right: 2px solid rgba(140, 140, 140, 0.244);
+}
+
+.item2 a:last-child {
+  border-right: none;
+}
+
+.main {
+  border-bottom: 4px solid rgba(16, 223, 154, 0.858);
+}
+
+.main-all {
+  padding-top: 20px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main h1 {
+  color: rgb(41, 99, 80);
+  border-bottom: 2px solid rgba(41, 99, 80, 0.276);
+  display: flex;
+}
+
+.main-area {
+  text-align: center;
+  width: 700px;
+  padding: 20px;
+  gap: 20px;
+  background-color: white;
+}
+
+.main-area img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.text-align p {
+  color: rgba(23, 18, 18, 0.913);
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-img {
+  display: flex;
+  gap: 30px;
+}
+
+.text-align h2 {
+  color: rgb(41, 99, 80);
+}
+
+.connect {
+  background-color: #fff;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.boxes img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+.boxes h1 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: dimgray;
+  display: flex;
+  padding: 10px;
+}
